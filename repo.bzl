@@ -21,7 +21,7 @@ def _development_repositories():
 
     native.maven_jar(
         name = "mockito",
-        artifact = "org.mockito:mockito-core:1.9.5",
+        artifact = "org.mockito:mockito-core:2.25.0",
     )
 
     native.maven_jar(
@@ -31,12 +31,12 @@ def _development_repositories():
 
     native.maven_jar(
         name = "dexmaker",
-        artifact = "com.google.dexmaker:dexmaker:1.2",
+        artifact = "com.linkedin.dexmaker:dexmaker:2.25.0",
     )
 
     native.maven_jar(
         name = "dexmaker_mockito",
-        artifact = "com.google.dexmaker:dexmaker-mockito:jar:1.2",
+        artifact = "com.linkedin.dexmaker:dexmaker-mockito:jar:2.25.0",
     )
 
     native.maven_jar(
